@@ -1,0 +1,11 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+build/
+
+# Generated files
+pubspec.lock
+
+# Misc
+.idea/
+.vscode/

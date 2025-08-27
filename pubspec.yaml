@@ -1,19 +1,29 @@
-name: flutter_ui_study
-description: A new Flutter project.
-publish_to: 'none'
+name: pebbledrop
+description: Offline scaffold for the PebbleDrop game.
+version: 0.1.0
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=2.19.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.6
+  flame: any
+  flame_forge2d: any
+  flame_audio: any
+  google_mobile_ads: any
+  firebase_core: any
+  firebase_analytics: any
+  firebase_crashlytics: any
+  shared_preferences: any
+  vibration: any
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  flutter_lints: any
 
 flutter:
   uses-material-design: true
+  # assets:
+  #   - assets/audio/
+  #   - assets/images/
+  #   - assets/stages/

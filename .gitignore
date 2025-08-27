@@ -1,11 +1,30 @@
-# Flutter/Dart/Pub related
-.dart_tool/
+# Misc
+.DS_Store
+.idea/
 .packages
+.pub/
 build/
 
 # Generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
 pubspec.lock
 
-# Misc
-.idea/
-.vscode/
+# Android
+android/local.properties
+android/.gradle/
+android/app/release/
+
+# iOS
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+
+# Web
+web/.dart_tool/
+
+# Other
+coverage/

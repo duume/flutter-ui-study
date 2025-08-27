@@ -1,0 +1,7 @@
+# Static analysis configuration for PebbleDrop.
+# Lints are based on package:flutter_lints/flutter.yaml.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Additional lint rules can be added here in future issues.

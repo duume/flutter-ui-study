@@ -1,0 +1,19 @@
+# Placeholder GitHub Actions workflow for PebbleDrop.
+# To enable CI later, uncomment and adjust the configuration below.
+#
+# name: CI
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+# jobs:
+#   analyze:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: subosito/flutter-action@v2
+#         with:
+#           channel: stable
+#       - run: flutter pub get
+#       - run: flutter analyze
